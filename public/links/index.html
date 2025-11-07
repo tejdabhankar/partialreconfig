@@ -1,0 +1,415 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en-us'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='http://localhost:1313/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>links - Tej Dabhankar</title>
+
+    
+
+    
+
+    
+    <meta name="author" content="Tejas Dabhankar" />
+    
+
+    
+        <meta property="og:url" content="http://localhost:1313/links/">
+  <meta property="og:site_name" content="Tej Dabhankar">
+  <meta property="og:title" content="links">
+  <meta property="og:description" content="I would not consider myself avid reader however i tend to read interesting stuff.
+n0n tech Road Trip across DRC Cycling from Finland to Singapore –youtube video Paper’s that I have liked Asynchronous FIFO Design Must read post’s How to ask questions How to be a hacker if you are fpga developer ( or maybe not ) Growing as an fpga developer FPGA developer who didn’t get the job Blogs that I have liked BenjaminCpu Yossi Kreinin’s Sameer Puri Project that i wish to recreate ( if i get some time) FPGA from Discreate IC’s Brain Fuck Cpu in FPGA FPGA Stereo Camera">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="links">
+  <meta name="twitter:description" content="I would not consider myself avid reader however i tend to read interesting stuff.
+n0n tech Road Trip across DRC Cycling from Finland to Singapore –youtube video Paper’s that I have liked Asynchronous FIFO Design Must read post’s How to ask questions How to be a hacker if you are fpga developer ( or maybe not ) Growing as an fpga developer FPGA developer who didn’t get the job Blogs that I have liked BenjaminCpu Yossi Kreinin’s Sameer Puri Project that i wish to recreate ( if i get some time) FPGA from Discreate IC’s Brain Fuck Cpu in FPGA FPGA Stereo Camera">
+      <meta name="twitter:site" content="@https://twitter.com/TejTalks">
+
+    <link rel="stylesheet" href="http://localhost:1313/style.css" integrity="">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'light';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="http://localhost:1313/js/theme-switch.js" integrity=""></script>
+
+
+
+    <script defer src="http://localhost:1313/js/hide-navbar-on-scroll.js" integrity=""></script>
+
+
+
+
+
+    <script defer src="http://localhost:1313/js/zooming.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_content" class="wide">
+        <div id="header_left">
+            <div id="sidebar_btn">
+                <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+                <label id="sidebar_btn_label" for="sidebar_btn_input">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</label>
+                <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                    <div id="sidebar_canvas_overlay"></div>
+                </label>
+                <div id="sidebar">
+                    <ul></ul>
+                </div>
+            </div>
+        
+            <div class="brand">
+                <div>
+                    <a href="http://localhost:1313/">Tej Dabhankar</a>
+                </div>
+            </div><nav id="header_navbar" class="pure-menu header-menu">
+    <ul class="pure-menu-list"></ul>
+</nav>
+</div>
+
+        <div id="header_right">
+            
+
+            <div id="theme_tool">
+                <button id="dark_mode_btn" class="header-menu-btn outline-button" title='Switch to dark mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</button>
+                <button id="light_mode_btn" class="header-menu-btn outline-button" title='Switch to light mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</button>
+            </div>
+
+            
+        </div>
+    </div>
+</header><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+<main>
+            <div id="content" class="content-margin">
+                
+    
+    
+        
+        <div class="collapsible-menu-wrapper"><div class="collapsible-menu-type"><span>Table of contents</span></div><div class="collapsible-menu">
+        
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#n0n-tech">n0n tech</a></li>
+    <li><a href="#papers-that-i-have-liked">Paper&rsquo;s that I have liked</a></li>
+    <li><a href="#must-read-posts">Must read post&rsquo;s</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#blogs-that-i-have-liked">Blogs that I have liked</a></li>
+    <li><a href="#project-that-i-wish-to--recreate--if-i-get-some-time">Project that i wish to  recreate ( if i get some time)</a></li>
+  </ul>
+</nav>
+        
+    </div></div>
+    
+
+
+
+    <div class="content-margin">
+
+
+
+
+<article class="line-numbers">
+    
+    
+
+    
+    
+        
+        
+            
+        
+        <section><p>I would not consider myself avid reader however i tend to read interesting stuff.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="n0n-tech">
+
+
+<h2 class="header-anchor-wrapper">n0n tech
+  <a href="#n0n-tech" class="header-anchor-link">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</a>
+</h2>
+
+<ul>
+<li><a href="https://geoff.greer.fm/congo/">Road Trip across DRC</a></li>
+<li><a href="https://youtu.be/sDf3Lr8Mfcc?si=GW7dJFU0gyn2MdjD">Cycling from Finland to Singapore</a>   &ndash;youtube video</li>
+</ul>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="papers-that-i-have-liked">
+
+
+<h2 class="header-anchor-wrapper">Paper&rsquo;s that I have liked
+  <a href="#papers-that-i-have-liked" class="header-anchor-link">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</a>
+</h2>
+
+<ul>
+<li><a href="https://www.sunburst-design.com/papers/CummingsSNUG2002SJ_FIFO1.pdf">Asynchronous FIFO Design</a></li>
+</ul>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="must-read-posts">
+
+
+<h2 class="header-anchor-wrapper">Must read post&rsquo;s
+  <a href="#must-read-posts" class="header-anchor-link">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</a>
+</h2>
+
+<ul>
+<li><a href="http://catb.org/~esr/faqs/smart-questions.html">How to ask questions</a></li>
+<li><a href="http://vadeker.net/articles/hacker-howto.html">How to be a hacker</a></li>
+<li></li>
+</ul>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="if-you-are-fpga-developer--or-maybe-not-">
+
+
+<h4 class="header-anchor-wrapper">if you are fpga developer ( or maybe not )
+  <a href="#if-you-are-fpga-developer--or-maybe-not-" class="header-anchor-link">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</a>
+</h4>
+
+<ul>
+<li><a href="https://voltagedivide.com/2023/04/03/growing-as-an-fpga-developer/">Growing as an fpga developer</a></li>
+<li><a href="https://zipcpu.com/blog/2021/01/29/hiring.html">FPGA developer who didn&rsquo;t get the job </a></li>
+</ul>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="blogs-that-i-have-liked">
+
+
+<h2 class="header-anchor-wrapper">Blogs that I have liked
+  <a href="#blogs-that-i-have-liked" class="header-anchor-link">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</a>
+</h2>
+
+<ul>
+<li><a href="https://benjamin.computer/index.html">BenjaminCpu</a></li>
+<li><a href="https://yosefk.com/blog/">Yossi Kreinin&rsquo;s</a></li>
+<li><a href="https://purisa.me/about/">Sameer Puri</a></li>
+</ul>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="project-that-i-wish-to--recreate--if-i-get-some-time">
+
+
+<h2 class="header-anchor-wrapper">Project that i wish to  recreate ( if i get some time)
+  <a href="#project-that-i-wish-to--recreate--if-i-get-some-time" class="header-anchor-link">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</a>
+</h2>
+
+<ul>
+<li><input disabled="" type="checkbox"> <a href="http://blog.notdot.net/2012/10/Build-your-own-FPGA">FPGA from Discreate IC&rsquo;s</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://gergo.erdi.hu/blog/2013-01-19-a_brainfuck_cpu_in_fpga/">Brain Fuck Cpu in FPGA</a></li>
+<li><input disabled="" type="checkbox"> FPGA Stereo Camera</li>
+</ul>
+</section>
+    
+</article>
+</div>
+
+
+                
+                    
+                
+
+                
+            </div>
+        </main>
+</body>
+</html>

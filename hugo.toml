@@ -1,0 +1,85 @@
+# ─────────────────────────────────────────────
+# 🌐 SITE CONFIGURATION
+# ─────────────────────────────────────────────
+baseURL = 'http://localhost:1313/'    # Change to 'https://tejtalks.org/' for production
+languageCode = 'en-us'
+title = 'Tej Dabhankar'
+theme = 'monochrome'
+enableRobotsTXT = true                # Generates /robots.txt automatically
+canonifyURLs = true                   # Ensures absolute URLs are used
+
+[pagination]
+  pagerSize = 10
+# ─────────────────────────────────────────────
+# 🧩 PARAMETERS (used by themes like Ananke)
+# ─────────────────────────────────────────────
+[params]
+  author = 'Tejas Dabhankar'
+  description = 'TejTalks — Ideas, reflections, and explorations in VLSI, open-source, books, and life.'
+  showReadingTime = true
+  mainSections = ['blog']
+  dateFormat = 'Jan 2, 2006'
+  bodyClasses = 'avenir bg-near-white'
+  customCSS = ['css/custom.css']       # Optional — for site-wide visual tweaks
+  customJS  = ['js/custom.js']         # Optional — for interactive behavior
+
+# ─────────────────────────────────────────────
+# 📜 MENU CONFIGURATION
+# ─────────────────────────────────────────────
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Links'
+    pageRef = '/links'
+    weight = 30
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 40
+
+  [[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 50
+
+# ─────────────────────────────────────────────
+# 🗂️ MODULE MOUNTS
+# ─────────────────────────────────────────────
+[[module.mounts]]
+  source = "content"
+  target = "content"
+
+[[module.mounts]]
+  source = "static"
+  target = "static"
+
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# ─────────────────────────────────────────────
+# 💬 SOCIAL LINKS (optional, shown in footer)
+# ─────────────────────────────────────────────
+[params.social]
+  github = 'https://github.com/tejdabhankar'
+  linkedin = 'https://www.linkedin.com/in/tejas-dabhankar/'
+  twitter = 'https://twitter.com/TejTalks'
+  instagram = 'https://www.instagram.com/tejtalks/'
+
