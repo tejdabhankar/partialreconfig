@@ -1,7 +1,7 @@
 # ─────────────────────────────────────────────
 # 🌐 SITE CONFIGURATION
 # ─────────────────────────────────────────────
-baseURL = 'http://localhost:1313/'    # Change to 'https://tejtalks.org/' for production
+baseURL = "https://tejdabhankar.github.io/partialreconfig/"
 languageCode = 'en-us'
 title = 'Tej Dabhankar'
 theme = 'monochrome'
