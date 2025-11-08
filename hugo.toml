@@ -1,10 +1,11 @@
 # ─────────────────────────────────────────────
 # 🌐 SITE CONFIGURATION
 # ─────────────────────────────────────────────
-baseURL = "https://tejdabhankar.github.io/partialreconfig/"
+#baseURL = "https://tejdabhankar.github.io/partialreconfig/"
+baseURL = "http://localhost:1313/"
 languageCode = 'en-us'
 title = 'Tej Dabhankar'
-theme = 'monochrome'
+theme = 'papermod'
 enableRobotsTXT = true                # Generates /robots.txt automatically
 canonifyURLs = true                   # Ensures absolute URLs are used
 
@@ -14,13 +15,14 @@ canonifyURLs = true                   # Ensures absolute URLs are used
 # 🧩 PARAMETERS (used by themes like Ananke)
 # ─────────────────────────────────────────────
 [params]
-  author = 'Tejas Dabhankar'
-  description = 'TejTalks — Ideas, reflections, and explorations in VLSI, open-source, books, and life.'
+  author = 'Tej Dabhankar'
+  description = 'TejTalks — '
   showReadingTime = true
   mainSections = ['blog']
   dateFormat = 'Jan 2, 2006'
   bodyClasses = 'avenir bg-near-white'
-  customCSS = ['css/custom.css']       # Optional — for site-wide visual tweaks
+  showFooter = true
+  customCSS = ['assets/css/custom.css']       # Optional — for site-wide visual tweaks
   customJS  = ['js/custom.js']         # Optional — for interactive behavior
 
 # ─────────────────────────────────────────────
@@ -43,14 +45,15 @@ canonifyURLs = true                   # Ensures absolute URLs are used
     weight = 30
 
   [[menus.main]]
-    name = 'About'
-    pageRef = '/about'
+    name = 'projects'
+    pageRef = '/projects'
     weight = 40
 
   [[menus.main]]
-    name = 'Projects'
-    pageRef = '/projects'
+    name = 'About'
+    pageRef = '/about'
     weight = 50
+
 
 # ─────────────────────────────────────────────
 # 🗂️ MODULE MOUNTS

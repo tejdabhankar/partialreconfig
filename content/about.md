@@ -2,19 +2,27 @@
 title = "About"
 +++
 
-Hello! I’m Tej Dabhankar, an electronics engineer who spends most of his time tinkering and reading stuffs — both professionally and as a hobby. In my free time, I personally prefer to read books and blogs and sometime dirt hand with the tech. Currently engaging myself in the FPGA to know the depth of computation from the rtl side. 
+Hello! I’m **Tej Dabhankar**, an electronics engineer who loves exploring how things work — both professionally and as a hobby.  
 
-In free time i personally love to explore the nature,trek cycling and bike riding. Well sometimes i write stuff if i get bored.
+I’m deeply interested in **hardware, computation, and FPGA systems**, and currently diving into **RTL design** to understand computation from the ground up.
 
-Right now, I’m affiliated with [Vicharak](https://vicharak.in/) Computers as an FPGA Engineer, where I work on Computation and data transfer bus of VIcharak on FPGAs. Some of the notable projects I’ve worked on include:
+In my free time, I enjoy **exploring nature**, **trekking**, **cycling**, and **bike riding**. Sometimes, when I need a change of pace, I **write** — about technology, ideas, or anything that sparks curiosity.
 
-* Periplex – a general-purpose FPGA-based bus which can multiplex the peripheral connected to it. 
+I’m currently working at [**Vicharak Computers**](https://vicharak.in/) as an **FPGA Engineer**, where I design and develop computation and data transfer buses for FPGA-based systems.
 
-* Calcx - a FPGA based calcaulated which can act as a scientific calculator.
+Some of my notable projects include:
+- **PeriPlex** – a general-purpose FPGA bus for multiplexing multiple peripherals.  
+- **Calcx** – an FPGA-based scientific calculator prototype.
 
-Outside of work, I spend time tinkering with different kinds of hardware and occasionally writing blogs to share my experiments and learnings.
+Outside of work, I continue to experiment with hardware, document my learnings, and occasionally write blogs to share insights.
 
-- E-Mail: <a target="_blank" href="mailto:dpk@lut4.com">tejdabhankar[at]gmail[dot]com</a>
-- Twitter: <a target="_blank" href="https://x.com/deeempak">https://x.com/tejtalks</a>
-- Linkedin: <a target="_blank" href="https://www.linkedin.com/in/deepak-sharda/">linkedin.com/tejas-dabhankar/</a>
-- Github: <a target="_blank" href="https://github.com/dpks2003">github.com/tejdabhankar</a>
+---
+<div style="text-align:center; margin-top:12px; display:flex; justify-content:center; gap:10px;">
+
+<a href="https://github.com/tejdabhankar" target="_blank"><img src="https://cdn.simpleicons.org/github/000000" height="22" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/tejas-dabhankar/" target="_blank"><img src="https://cdn.simpleicons.org/linkedin/000000" height="22" alt="LinkedIn"/></a>
+<a href="https://x.com/hellotejtalks" target="_blank"><img src="https://cdn.simpleicons.org/x/000000" height="22" alt="X"/></a>
+<a href="mailto:tejdabhankar@gmail.com"><img src="https://cdn.simpleicons.org/gmail/000000" height="22" alt="Email"/></a>
+
+</div>
+

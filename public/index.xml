@@ -1,152 +1,78 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>TejTalks on Tej Dabhankar</title>
-    <link>https://tejdabhankar.github.io/partialreconfig/</link>
-    <description>Recent content in TejTalks on Tej Dabhankar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>partialreconfig on Tej Dabhankar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in partialreconfig on Tej Dabhankar</description>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate><atom:link href="https://tejdabhankar.github.io/partialreconfig/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PeriPlex 2R1 FPGA Framework</title>
+      <link>http://localhost:1313/projects/p2r1/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/p2r1/</guid>
+      <description>A unified FPGA PHY communication layer for UART, SPI, I2C, and JTAG</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.
+ohh this will work this way&lt;/p&gt;
+&lt;h3 id=&#34;okay-hot&#34;&gt;okay hot&lt;/h3&gt;
+&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
-      <link>https://tejdabhankar.github.io/partialreconfig/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tejdabhankar.github.io/partialreconfig/about/</guid>
-      <description>&lt;p&gt;Hello! I’m Tej Dabhankar, an electronics engineer who spends most of his time tinkering and reading stuffs — both professionally and as a hobby. In my free time, I personally prefer to read books and blogs and sometime dirt hand with the tech. Currently engaging myself in the FPGA to know the depth of computation from the rtl side.&lt;/p&gt;
-&lt;p&gt;In free time i personally love to explore the nature,trek cycling and bike riding. Well sometimes i write stuff if i get bored.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hello! I’m &lt;strong&gt;Tej Dabhankar&lt;/strong&gt;, an electronics engineer who loves exploring how things work — both professionally and as a hobby.&lt;/p&gt;
+&lt;p&gt;I’m deeply interested in &lt;strong&gt;hardware, computation, and FPGA systems&lt;/strong&gt;, and currently diving into &lt;strong&gt;RTL design&lt;/strong&gt; to understand computation from the ground up.&lt;/p&gt;
+&lt;p&gt;In my free time, I enjoy &lt;strong&gt;exploring nature&lt;/strong&gt;, &lt;strong&gt;trekking&lt;/strong&gt;, &lt;strong&gt;cycling&lt;/strong&gt;, and &lt;strong&gt;bike riding&lt;/strong&gt;. Sometimes, when I need a change of pace, I &lt;strong&gt;write&lt;/strong&gt; — about technology, ideas, or anything that sparks curiosity.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>links</title>
-      <link>https://tejdabhankar.github.io/partialreconfig/links/</link>
+      <link>http://localhost:1313/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tejdabhankar.github.io/partialreconfig/links/</guid>
+      <guid>http://localhost:1313/links/</guid>
       <description>&lt;p&gt;I would not consider myself avid reader however i tend to read interesting stuff.&lt;/p&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;n0n-tech&#34; --&gt;
-
-&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;n0n tech
-  &lt;a href=&#34;#n0n-tech&#34; class=&#34;header-anchor-link&#34;&gt;
-&lt;svg
-    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
-    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
-    stroke-linejoin=&#34;round&#34;&gt;
-    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
-&lt;/svg&gt;
-
-&lt;/a&gt;
-&lt;/h2&gt;
-
+&lt;h2 id=&#34;n0n-tech&#34;&gt;n0n tech&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://geoff.greer.fm/congo/&#34;&gt;Road Trip across DRC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/sDf3Lr8Mfcc?si=GW7dJFU0gyn2MdjD&#34;&gt;Cycling from Finland to Singapore&lt;/a&gt;   &amp;ndash;youtube video&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;papers-that-i-have-liked&#34; --&gt;
-
-&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;Paper&amp;rsquo;s that I have liked
-  &lt;a href=&#34;#papers-that-i-have-liked&#34; class=&#34;header-anchor-link&#34;&gt;
-&lt;svg
-    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
-    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
-    stroke-linejoin=&#34;round&#34;&gt;
-    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
-&lt;/svg&gt;
-
-&lt;/a&gt;
-&lt;/h2&gt;
-
+&lt;h2 id=&#34;papers-that-i-have-liked&#34;&gt;Paper&amp;rsquo;s that I have liked&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sunburst-design.com/papers/CummingsSNUG2002SJ_FIFO1.pdf&#34;&gt;Asynchronous FIFO Design&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;must-read-posts&#34; --&gt;
-
-&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;Must read post&amp;rsquo;s
-  &lt;a href=&#34;#must-read-posts&#34; class=&#34;header-anchor-link&#34;&gt;
-&lt;svg
-    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
-    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
-    stroke-linejoin=&#34;round&#34;&gt;
-    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
-&lt;/svg&gt;
-
-&lt;/a&gt;
-&lt;/h2&gt;
-
+&lt;h2 id=&#34;must-read-posts&#34;&gt;Must read post&amp;rsquo;s&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://catb.org/~esr/faqs/smart-questions.html&#34;&gt;How to ask questions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://vadeker.net/articles/hacker-howto.html&#34;&gt;How to be a hacker&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;if-you-are-fpga-developer--or-maybe-not-&#34; --&gt;
-
-&lt;h4 class=&#34;header-anchor-wrapper&#34;&gt;if you are fpga developer ( or maybe not )
-  &lt;a href=&#34;#if-you-are-fpga-developer--or-maybe-not-&#34; class=&#34;header-anchor-link&#34;&gt;
-&lt;svg
-    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
-    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
-    stroke-linejoin=&#34;round&#34;&gt;
-    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
-&lt;/svg&gt;
-
-&lt;/a&gt;
-&lt;/h4&gt;
-
+&lt;h4 id=&#34;if-you-are-fpga-developer--or-maybe-not-&#34;&gt;if you are fpga developer ( or maybe not )&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://voltagedivide.com/2023/04/03/growing-as-an-fpga-developer/&#34;&gt;Growing as an fpga developer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zipcpu.com/blog/2021/01/29/hiring.html&#34;&gt;FPGA developer who didn&amp;rsquo;t get the job &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;blogs-that-i-have-liked&#34; --&gt;
-
-&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;Blogs that I have liked
-  &lt;a href=&#34;#blogs-that-i-have-liked&#34; class=&#34;header-anchor-link&#34;&gt;
-&lt;svg
-    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
-    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
-    stroke-linejoin=&#34;round&#34;&gt;
-    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
-&lt;/svg&gt;
-
-&lt;/a&gt;
-&lt;/h2&gt;
-
+&lt;h2 id=&#34;blogs-that-i-have-liked&#34;&gt;Blogs that I have liked&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://benjamin.computer/index.html&#34;&gt;BenjaminCpu&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://yosefk.com/blog/&#34;&gt;Yossi Kreinin&amp;rsquo;s&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://purisa.me/about/&#34;&gt;Sameer Puri&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;project-that-i-wish-to--recreate--if-i-get-some-time&#34; --&gt;
-
-&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;Project that i wish to  recreate ( if i get some time)
-  &lt;a href=&#34;#project-that-i-wish-to--recreate--if-i-get-some-time&#34; class=&#34;header-anchor-link&#34;&gt;
-&lt;svg
-    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
-    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
-    stroke-linejoin=&#34;round&#34;&gt;
-    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
-&lt;/svg&gt;
-
-&lt;/a&gt;
-&lt;/h2&gt;
-
+&lt;h2 id=&#34;project-that-i-wish-to--recreate--if-i-get-some-time&#34;&gt;Project that i wish to  recreate ( if i get some time)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;http://blog.notdot.net/2012/10/Build-your-own-FPGA&#34;&gt;FPGA from Discreate IC&amp;rsquo;s&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://gergo.erdi.hu/blog/2013-01-19-a_brainfuck_cpu_in_fpga/&#34;&gt;Brain Fuck Cpu in FPGA&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; FPGA Stereo Camera&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>
