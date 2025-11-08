@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TejTalks on Tej Dabhankar</title>
-    <link>http://localhost:1313/</link>
+    <link>https://tejdabhankar.github.io/partialreconfig/</link>
     <description>Recent content in TejTalks on Tej Dabhankar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate><atom:link href="https://tejdabhankar.github.io/partialreconfig/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://tejdabhankar.github.io/partialreconfig/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://tejdabhankar.github.io/partialreconfig/about/</guid>
       <description>&lt;p&gt;Hello! I’m Tej Dabhankar, an electronics engineer who spends most of his time tinkering and reading stuffs — both professionally and as a hobby. In my free time, I personally prefer to read books and blogs and sometime dirt hand with the tech. Currently engaging myself in the FPGA to know the depth of computation from the rtl side.&lt;/p&gt;
 &lt;p&gt;In free time i personally love to explore the nature,trek cycling and bike riding. Well sometimes i write stuff if i get bored.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>links</title>
-      <link>http://localhost:1313/links/</link>
+      <link>https://tejdabhankar.github.io/partialreconfig/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/links/</guid>
+      <guid>https://tejdabhankar.github.io/partialreconfig/links/</guid>
       <description>&lt;p&gt;I would not consider myself avid reader however i tend to read interesting stuff.&lt;/p&gt;
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;n0n-tech&#34; --&gt;
